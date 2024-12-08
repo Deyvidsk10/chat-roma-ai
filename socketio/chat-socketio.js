@@ -18,7 +18,7 @@ io.on("connection", (socket) => {
 
   // Quando uma mensagem for enviada
   socket.on("message", async (msg) => {
-    console.log(msg);
+    console.log(msg);s
 
     // Verificar se o comando /text foi usado
     if (msg.text.startsWith("/text ")) {
